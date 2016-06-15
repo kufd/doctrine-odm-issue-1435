@@ -1,0 +1,25 @@
+Job:
+    collection: jobs
+    fields:
+        uuid:
+            id: true
+        name:
+            type: string
+            nullable: true
+        description:
+            type: string
+            nullable: true
+        taskUuidList:
+            type: hash
+            nullable: true
+        balancing:
+            type: hash
+            nullable: true
+        balancingEnabled:
+            type: boolean
+        retryCount:
+            type: integer
+        retryEnabled:
+            type: boolean
+        userId:
+            type: string
