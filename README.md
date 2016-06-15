@@ -1,3 +1,1 @@
-Just run
-php src/test.php
-to reproduce the issue
+Just run "php src/test.php" to reproduce the issue
